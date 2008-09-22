@@ -1,0 +1,8 @@
+# This is a sample database file for the DataMapper ORM
+development:
+   adapter: mysql
+   database: test
+   username: root
+   password: 
+   host: localhost
+   socket: /tmp/mysql.sock
