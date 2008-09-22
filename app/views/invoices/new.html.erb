@@ -1,0 +1,11 @@
+<h1>Invoices controller, new action</h1>
+
+<p>Edit this file in <tt>app/views/invoices/new.html.erb</tt></p>
+
+<%= form_for(@invoice, :action => url(:invoices) ) do %>
+  <p>
+    <%= submit "Create" %>
+  </p>
+<% end =%>
+
+<%= link_to 'Back', url(:invoices) %>

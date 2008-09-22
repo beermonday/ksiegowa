@@ -52,6 +52,8 @@ $KCODE = 'UTF8'
 # dependency "merb-jquery"        # Provides a #jquery method to insert jQuery code in to a content block
 # dependency "merb-mailer"        # Integrates mail support via Merb Mailer
 
+dependencies "dm-validations"
+
 # These are a few, but not all, of the merb-plugin dependencies:
 #
 # dependency "merb_helpers"           # Provides the form, date/time, and other helpers
